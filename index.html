@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://kit.fontawesome.com/39880de3fe.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">  
+  <link href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <div class="card">
+          <div class="card-body">
+           <div class="row six-days">
+             <div class="col">
+               <p class="day">Mon</p>
+               <i class="fas fa-cloud-rain six-days"></i>
+               <p class="temp">15°</p>
+             </div>
+             <div class="col">
+              <p class="day">Tues</p>
+              <i class="fas fa-cloud-rain six-days"></i>
+              <p class="temp">18°</p>
+            </div>
+            <div class="col">
+              <p class="day">Wed</p>
+              <i class="fas fa-cloud-sun-rain six-days"></i>
+              <p class="temp">23°</p>
+            </div>
+            <div class="col">
+              <p class="day">Thurs</p>
+              <i class="far fa-sun six-days"></i>
+              <p class="temp">28°</p>
+            </div>
+            <div class="col">
+              <p class="day">Fri</p>
+              <i class="fas fa-cloud-rain six-days"></i>
+              <p class="temp">12°</p>
+            </div>
+            <div class="col">
+              <p class="day">Sat</p>
+              <i class="fas fa-cloud-sun six-days"></i>
+              <p class="temp">30°</p>
+            </div>
+          </div>
+    <div class="app">
+      <div class="clear">
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+                class="form-control shadow-sm"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm w-100"
+              />
+            </div>
+            <div class="col-3">
+              <button
+                class="btn btn-success w-100"
+                id="current-location-button"
+              >
+                Current
+              </button>
+            </div>
+          </div>
+        </form>
+        
+    </div>
+  </div>
+  <div class="weather-header">
+    <div class="weather-header-head">
+        <h1 id="city"></h1>
+        <ul>
+          <li id="date"></li>
+          <li id="description"></li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <div class="clearfix">
+              <div class="float-left">
+                <span class="temperature" id="temperature"></span>
+                <span class="units">°C</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </br>
+ <footer>
+      <ul class="countries">
+          <div class="row">
+            <div class="col">
+              <li class="list">
+               <a href="">Paris</a>
+              </li>
+            </div>
+           <div class="col">
+              <li class="list">
+                <a href="">Lisbon</a>
+              </li>
+           </div>
+           <div class="col">
+              <li class="list">
+                <a href="">Sydney</a>
+              </li>
+            </div>
+            <div class="col">
+              <li class="list">
+                <a href="">Conakry</a>
+              </li>
+            </div>
+       </ul>
+    </div>
+  </class>
+  </footer>
+  <small>
+      <a href="" target="">open_source code</a>
+  by Ramata bah
+  </small>
+   </div>
+ 
+    <script src="src/index.js"></script>
+    </body>
+       
+</html>

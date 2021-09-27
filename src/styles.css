@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto", sans-serif;
+
+  display: block;
+  margin: 8px;
+}
+h1 {
+  color: blue;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0;
+}
+.card-body {
+  background: #eaf6f6;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
